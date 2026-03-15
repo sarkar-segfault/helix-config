@@ -1,23 +1,23 @@
 theme = "catppuccin_mocha"
 
 [keys.insert]
-C-h = ":buffer-previous"
-C-l = ":buffer-next"
-C-j = ":buffer-close"
+C-left = ":buffer-previous"
+C-right = ":buffer-next"
+C-x = ":buffer-close"
 C-s = ":write-all"
 C-q = ":write-quit-all"
 
 [keys.normal]
-C-h = ":buffer-previous"
-C-l = ":buffer-next"
-C-j = ":buffer-close!"
+C-left = ":buffer-previous"
+C-right = ":buffer-next"
+C-x = ":buffer-close!"
 C-s = ":write-all!"
 C-q = ":write-quit-all!"
 
 [editor]
 true-color = true
 default-yank-register = "+"
-shell = ["bash", "-c"]
+shell = ["C:\\Program Files\\Git\\bin\\bash.exe", "-c"]
 cursorline = true
 continue-comments = false
 bufferline = "always"
