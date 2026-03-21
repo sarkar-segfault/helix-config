@@ -1,16 +1,16 @@
 theme = "catppuccin_mocha"
 
 [keys.insert]
-C-left = ":buffer-previous"
-C-right = ":buffer-next"
-C-x = ":buffer-close"
+C-h = ":buffer-previous"
+C-l = ":buffer-next"
+C-j = ":buffer-close"
 C-s = ":write-all"
 C-q = ":write-quit-all"
 
 [keys.normal]
-C-left = ":buffer-previous"
-C-right = ":buffer-next"
-C-x = ":buffer-close!"
+C-h = ":buffer-previous"
+C-l = ":buffer-next"
+C-j = ":buffer-close!"
 C-s = ":write-all!"
 C-q = ":write-quit-all!"
 
