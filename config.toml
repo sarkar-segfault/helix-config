@@ -4,15 +4,15 @@ theme = "catppuccin_mocha"
 A-h = ":buffer-previous"
 A-l = ":buffer-next"
 A-j = ":buffer-close"
-A-s = ":write-all"
-A-q = ":write-quit-all"
+A-o = ":write-all"
+A-p = ":write-quit-all"
 
 [keys.normal]
 A-h = ":buffer-previous"
 A-l = ":buffer-next"
 A-j = ":buffer-close!"
-A-s = ":write-all!"
-A-q = ":write-quit-all!"
+A-o = ":write-all!"
+A-p = ":write-quit-all!"
 
 [editor]
 true-color = true
