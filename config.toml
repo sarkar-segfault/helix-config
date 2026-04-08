@@ -22,6 +22,7 @@ cursorline = true
 continue-comments = false
 bufferline = "always"
 popup-border = "all"
+auto-format = true
 end-of-line-diagnostics = "hint"
 
 [editor.inline-diagnostics]
