@@ -16,6 +16,7 @@ C-q = ":write-quit-all!"
 
 [editor]
 true-color = true
+scroll-lines = 1
 default-yank-register = "+"
 shell = ["C:\\Program Files\\Git\\usr\\bin\\bash.exe", "-c"]
 cursorline = true
